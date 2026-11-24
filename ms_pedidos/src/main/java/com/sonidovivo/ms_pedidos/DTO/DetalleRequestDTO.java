@@ -1,0 +1,13 @@
+package com.sonidovivo.ms_pedidos.DTO;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor 
+public class DetalleRequestDTO {
+    private Long idProducto;
+    private int cantidad;
+}
